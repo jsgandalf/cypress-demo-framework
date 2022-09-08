@@ -22,7 +22,9 @@ pipeline {
       }
     }
     stage('Deploying') {
-      eho "Deploy the app"
+      steps {
+        eho "Deploy the app"
+      }
     }
   }
   
