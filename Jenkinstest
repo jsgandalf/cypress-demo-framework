@@ -19,7 +19,7 @@ pipeline {
         sh "npx cypress run --browser=${BROWSER} --spec ${SPEC}"
       }
     }
-    stage('Deploying) {
+    stage('Deploying') {
       eho "Deploy the app"
     }
   }
